@@ -1,14 +1,14 @@
 <html>
     <header>
-        
+        <link rel="stylesheet" href="style.css">
 
     </header>
     <body>
         <H1 id="title">Microvers task</H1></br>
         <p id="description">collaboration between Caleb and Samson</p>
         <form action="" id="survey-form">
-       <label id="name-label" for="">Name
-        <input type="text" id="name" placeholder="name" required>
+       <label id="name-label" for=""> Name
+        <input type="text" id="name" class="name" placeholder="name" required>
     </label>
         <label id="email-label" for=""> Email
         <input type="email" name="" id="email" placeholder="email" required>
@@ -16,23 +16,28 @@
         <label id="number-label" for=""> Number
         <input type="number" name="" min="0" max="100" id="number" placeholder="number" required>
     </label>
-
+    <label class="drop" for=""> Donation Portal
     <select name="" id="dropdown">
         <option value="">Select</option>
         <option value="">Credit Card</option>
         <option value="">Bank XCheque</option>
+    </label>
+    <br>
+    <br>
     
     </select>
-        <input type="radio" value="1" name="r1">Java
-        <input type="radio" value="2" name="r1">Python
-        <input type="radio" value="3" name="r1">Html
-
-        <input type="checkbox" value="first">
-        <input type="checkbox" value="second">
-        <input type="checkbox" value="third">
-
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="submit" id="submit">
+        <input class="r1" type="radio" value="1" name="r1">Java
+        <input class="r1" type="radio" value="2" name="r1">Python
+        <input class="r1" type="radio" value="3" name="r1">Html
+        <br>
+        <input class="ch1" type="checkbox" value="first">Microverse
+        <input class="ch1" type="checkbox" value="second">Freecodecamp
+        <input class="ch1" type="checkbox" value="third">Codeacedemy
+        <br>
+        <br>
+        <textarea name="" id="tarea" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" class="submi" value="submit" id="submit">
 
         </form>
 

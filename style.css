@@ -1,0 +1,18 @@
+
+body{
+    background-color: gold;
+    text-align: center;
+}
+
+input, select,textarea{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.r1{
+    display: inline-block;
+    margin: 10px 5px 10px 10px;
+}
+.ch1{
+    display: inline-block;
+}
