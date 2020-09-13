@@ -7,12 +7,25 @@
         <H1 id="title">Microvers task</H1></br>
         <p id="description">collaboration between Caleb and Samson</p>
         <form action="" id="survey-form">
-       
-        <input type="text" id="name" required>
-        <input type="email" name="" id="email" required>
-        <input type="number" name="" min="0" max="100" id="number" required>
+       <label id="name-label" for="">Name
+        <input type="text" id="name" placeholder="name" required>
+    </label>
+        <label id="email-label" for=""> Email
+        <input type="email" name="" id="email" placeholder="email" required>
+    </label>
+        <label id="number-label" for=""> Number
+        <input type="number" name="" min="0" max="100" id="number" placeholder="number" required>
+    </label>
 
-
+    <select name="" id="dropdown">
+        <option value="">Select</option>
+        <option value="">Credit Card</option>
+        <option value="">Bank XCheque</option>
+    
+    </select>
+        <input type="radio" value="1" name="r1">Java
+        <input type="radio" value="2" name="r1">Python
+        <input type="radio" value="3" name="r1">Html
         </form>
 
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
